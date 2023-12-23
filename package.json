@@ -2,7 +2,8 @@
   "name": "@ynssenem/strapi-netgsm",
   "version": "1.0.0",
   "strapi": {
-    "name": "Strapi Netgsm",
+    "name": "strapi-netgsm",
+    "displayName": "Strapi Netgsm OTP",
     "description": "",
     "kind": "plugin"
   },
