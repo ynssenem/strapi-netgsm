@@ -1,0 +1,4 @@
+# .npmignore içeriği
+node_modules/
+.git/
+# Diğer yoksayılacak dosyalar ve klasörler
