@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_phones",
+  "info": {
+    "singularName": "user-phone",
+    "pluralName": "user-phones",
+    "displayName": "UserPhone"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "phoneAreaCode": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}
